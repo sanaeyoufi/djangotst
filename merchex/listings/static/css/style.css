@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    text-align: center;
+   
+}
+header{
+    background-color: dimgray;
+    height: 120px;
+}
+ .menu1{  
+    font-family: verdana;
+    list-style-type: none;
+    display: inline-flex;
+}
+.menu1 li{
+   margin-right: 15px;
+    padding: 10px;
+    border-radius: center 10px;
+    font-size: 15px;
+    color: white;
+    border-color: gainsboros;
+    display: flex;
+    text-align: center;
+    
+}
+.menu1 li:hover{
+    cursor: pointer;
+    display: block;
+    font-size: small;
+   
+}
+select{
+    background-color: dimgrey;
+    color: white;
+}
+ .YENYDD{
+    color:white;
+     margin: 10px;
+      font-size: 20px;
+      margin-left: 40px;
+     float: left;
+}
+section{
+     background-color: white;
+     padding: 65px;
+    display: flex;
+     grid-template-columns: auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+button{
+    font-size: 20px;
+} 
+.nav{
+     background-color: dimgray;
+    height: 100px;
+     display: inline-flex;
+}
+ .Text{
+      display: inline-flex;
+     font-family: vendana;
+     list-style-type: none;
+     padding: 10px;
+     margin: 5px;
+     font-size: 15px;
+     color: white;
+     
+}
+dd{
+    padding: 5px;
+}
+.Text li{
+   margin-right: 15px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    height: 35px;
+    background-color: black;
+    font-size: 15px
+    
+}
